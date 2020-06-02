@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:padding="40dp">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".BmiCalculator"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/emi_calculator"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="50dp"/>
+
+
+        <TextView
+            android:id="@+id/emi_info"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="18sp"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="50dp"
+            android:textColor="@color/colorPrimary"/>
+
+
+        <EditText
+            android:id="@+id/principal_et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:hint="@string/principal_hint"
+            android:inputType="numberDecimal"
+            android:autofillHints="@string/weight_in_kg" />
+
+        <EditText
+            android:id="@+id/interest_et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:inputType="numberDecimal"
+            android:hint="@string/interest_rate_hint"
+            android:autofillHints="@string/height_in_meter"
+            android:layout_marginTop="30dp"/>
+
+        <EditText
+            android:id="@+id/installment_et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:inputType="numberDecimal"
+            android:hint="@string/installment_hint"
+            android:autofillHints="@string/height_in_meter"
+            android:layout_marginTop="30dp"/>
+
+
+        <Button
+            android:id="@+id/calculate_emi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/calculate"
+            android:layout_gravity="center_horizontal"
+            android:paddingRight="64dp"
+            android:paddingLeft="64dp"
+            android:layout_marginTop="100dp"/>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</ScrollView>

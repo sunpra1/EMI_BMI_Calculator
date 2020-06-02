@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">EMI_BMI_Calculator</string>
+    <string name="info_format">BMI = %s\nBMI Category = %s</string>
+    <string name="bmi_calculator">BMI Calculator</string>
+    <string name="bmi_app_suggestion">Enter weight (kg) and height (m)</string>
+    <string name="weight_in_kg">Weight in KG</string>
+    <string name="height_in_meter">Height in Meter</string>
+    <string name="m">M</string>
+    <string name="calculate">Calculate</string>
+    <string name="kg">KG</string>
+    <string name="emi_calculator">EMI Calculator</string>
+    <string name="emi_app_suggestion">Enter rate per month</string>
+    <string name="principal_hint">Loan Amount</string>
+    <string name="interest_rate_hint">Interest Rate Per Month</string>
+    <string name="installment_hint">Total Monthly Installments</string>
+</resources>
